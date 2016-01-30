@@ -111,9 +111,6 @@ use.voice.path.for.pcm.voip=true
 # Enable dsp gapless mode by default
 audio.offload.gapless.enabled=true
 
-# OTA
-ro.ota.manifest=http://maxicm.com/jagnm/ota.xml
-
 # Property to restrict number of cameras to 2
 persist.camera.num_cameras=2
 
