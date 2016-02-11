@@ -20,5 +20,5 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo cm_jagnm-eng
-add_lunch_combo cm_jagnm-userdebug
+add_lunch_combo mk_jagnm-eng
+add_lunch_combo mk_jagnm-userdebug

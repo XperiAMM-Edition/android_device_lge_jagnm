@@ -85,7 +85,7 @@ TARGET_USES_C2D_COMPOSITION := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # Hardware tunables framework
-BOARD_HARDWARE_CLASS := device/lge/jagnm/cmhw/
+BOARD_HARDWARE_CLASS := device/lge/jagnm/mkhw/
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
