@@ -299,8 +299,8 @@
          performance profiles  -->
     <string name="config_perf_profile_default_entry" translatable="false">1</string>
     
-    <!-- Fast charge path -->
-    <string name="config_fast_charge_path">/sys/kernel/fast_charge/force_fast_charge</string>
+    <!-- Fast charge path 
+    <string name="config_fast_charge_path">/sys/kernel/fast_charge/force_fast_charge</string> -->
 
     
 </resources>
