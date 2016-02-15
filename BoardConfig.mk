@@ -44,8 +44,6 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 AUDIO_FEATURE_ENABLED_FM := true
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 BOARD_USES_ALSA_AUDIO := true
-BOARD_USES_FLUENCE_INCALL := true
-BOARD_USES_SEPERATED_AUDIO_INPUT := true
 
 # Bionic
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
@@ -55,8 +53,6 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/jagnm/bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUEDROID_VENDOR_CONF := device/lge/jagnm/bluetooth/vnd_jagnm.txt
-#BOARD_HAVE_BLUETOOTH_QCOM := true
-#BLUETOOTH_HCI_USE_MCT := true
 
 # Camera
 USE_CAMERA_STUB := false
@@ -69,10 +65,10 @@ BOARD_USES_LEGACY_MMAP := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
-#BOARD_CHARGER_SHOW_PERCENTAGE := true
+BOARD_CHARGER_SHOW_PERCENTAGE := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
-#BOARD_HEALTHD_CUSTOM_CHARGER := device/lge/jagnm/charger/healthd_mode_charger.cpp
-#BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/lge/jagnm/charger/images
+BOARD_HEALTHD_CUSTOM_CHARGER := device/lge/jagnm/charger/healthd_mode_charger.cpp
+BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/lge/jagnm/charger/images
 COMMON_GLOBAL_CFLAGS += \
     -DBOARD_CHARGING_CMDLINE_NAME='"androidboot.mode"' \
     -DBOARD_CHARGING_CMDLINE_VALUE='"chargerlogo"'
